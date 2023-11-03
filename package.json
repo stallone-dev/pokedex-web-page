@@ -1,0 +1,30 @@
+{
+  "name": "pokedex-web-page",
+  "version": "1.0.0",
+  "description": "Study of assynchonous requests on JavaScript - Pokedex page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stallone-dev/pokedex-web-page.git"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "JS",
+    "PokeApi"
+  ],
+  "author": "Stallone L. de Souza",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/stallone-dev/pokedex-web-page/issues"
+  },
+  "homepage": "https://github.com/stallone-dev/pokedex-web-page#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.52.0"
+  }
+}
