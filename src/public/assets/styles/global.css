@@ -1,5 +1,33 @@
+:root {
+    --dark-font-color: hsl(0, 0%, 16%);
+    --light-font-color: hsl(113, 29%, 95%);
 
-*{
+    --main-background: hsl(51, 100%, 97%)
+}
+
+* {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-background);
+    color: var(--dark-font-color);
+}
+
+header, footer {
+    margin: 0;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        max-width: 992px;
+        margin: 0 auto;
+    }
 }
